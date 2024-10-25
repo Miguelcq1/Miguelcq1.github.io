@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background: rgb(192, 7, 7);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;  
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: rgb(255, 0, 0);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: url(imagen2.jfif) no-repeat center;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.header p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1px;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 10px 40px;
+    border: 3px solid gray;
+    color: gray;
+    text-decoration: none;
+    background: white;
+}
+
+.btn-link:hover {
+    background: rgb(204, 155, 155);
+}
+
+.content {
+    padding: 40px 0%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.content {
+    background: url(Fondo.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+}
+
+.formulario {
+    background-color: gray;
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+}
+input,textarea{
+    width: 150px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px ;
+    font-size: 16px;
+}
+textarea{
+    resize: none;
+    height: 100px;
+}
+button{
+    width: 90%;
+    padding: 10px;
+    background-color: black;
+    color: aqua;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box {
+    height: 90vh !important;
+    background: url(Fondo.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+}
+
+.sau {
+    padding: 50px;
+    background: black no-repeat center;
+    color: white;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery img {
+    width: 100px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: .5s ease;
+    margin: 0 10px;
+}
+
+.gallery img:hover {
+    cursor: pointer;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+    background: url(Fondo.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+}
+
